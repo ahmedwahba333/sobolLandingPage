@@ -64,7 +64,9 @@ p{
   }
 }
 
-
+.content{
+  width: 50%;
+}
 /* start media query */
 @media only screen and (max-width: 545px) {
   .container img{
@@ -73,7 +75,13 @@ p{
   .float-button{
     width: 50px;
   }
+
+.content{
+  width: 100%;
 }
+}
+
+
 /* end media query */
 
 
